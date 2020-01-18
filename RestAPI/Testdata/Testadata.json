@@ -12,7 +12,7 @@
             "BaseURI": "https://api.predic8.de",
             "Customer_Resources": "/shop/customers/",
             "get_orders_resource":"/shop/orders/",
-            "Orders_Resources":"/shop/orders/{REPLACE}/items/",
+            "Orders_Resources":"/shop/customers/{REPLACE}/orders/",
             "Delete_Orders_Resources":"/shop/orders/{REPLACE}",
             "Delete_Customer_Resources":"/shop/customers/{REPLACE}"
         }

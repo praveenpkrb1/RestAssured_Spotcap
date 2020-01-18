@@ -16,7 +16,7 @@ public class PutRequests extends CommonUtils{
 		// get time difference
 				Date d1 = getCurrentTime();
 
-				// define base URL
+				// define base url
 
 				RestAssured.baseURI = getData("BaseURI");
 

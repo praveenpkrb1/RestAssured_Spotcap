@@ -31,7 +31,7 @@ public class DeleteRequests extends CommonUtils {
 
 			Response response = RestAssured.given()
 
-					.when().get(resource).
+					.when().delete(resource).
 
 					then().assertThat().statusCode(Statuscodes.DELETE.getValue()).log().all().
 
