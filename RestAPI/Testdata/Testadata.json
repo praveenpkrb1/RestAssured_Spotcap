@@ -1,0 +1,22 @@
+{
+    "Testdata": [
+        {
+            "TestCaseName": "Validate_Tc_01_Get_Categories",
+            "BaseURI": "https://api.predic8.de",
+            "Resources": "/shop/categories/",
+            "Expected_Results": "Fruits;Nuts;Fresh"
+        },
+        
+        {
+            "TestCaseName": "Validate_Tc_02_Get_Orders_E2E",
+            "BaseURI": "https://api.predic8.de",
+            "Customer_Resources": "/shop/customers/",
+            "get_orders_resource":"/shop/orders/",
+            "Orders_Resources":"/shop/orders/{REPLACE}/items/",
+            "Delete_Orders_Resources":"/shop/orders/{REPLACE}",
+            "Delete_Customer_Resources":"/shop/customers/{REPLACE}"
+        }
+        
+        
+    ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14821" started-at="2020-01-18T08:26:16Z" finished-at="2020-01-18T08:26:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14821" started-at="2020-01-18T08:26:16Z" finished-at="2020-01-18T08:26:30Z">
+      <class name="com.testcases.Validate_Tc_01_Get_Categories">
+        <test-method status="PASS" signature="Tc_01_Get_Categories()[pri:0, instance:com.testcases.Validate_Tc_01_Get_Categories@204f30ec]" name="Tc_01_Get_Categories" duration-ms="6562" started-at="2020-01-18T08:26:17Z" description="Get all the Categories from the shop" finished-at="2020-01-18T08:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_01_Get_Categories -->
+      </class> <!-- com.testcases.Validate_Tc_01_Get_Categories -->
+      <class name="com.testcases.Validate_Tc_02_Get_Orders_E2E">
+        <test-method status="PASS" signature="postData()[pri:0, instance:com.testcases.Validate_Tc_02_Get_Orders_E2E@e25b2fe]" name="postData" duration-ms="7366" started-at="2020-01-18T08:26:23Z" finished-at="2020-01-18T08:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+      </class> <!-- com.testcases.Validate_Tc_02_Get_Orders_E2E -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

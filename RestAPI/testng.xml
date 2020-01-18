@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+<listener class-name="com.testnglistners.Listners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.testcases.Validate_Tc_01_Get_Categories"/>
+      <class name="com.testcases.Validate_Tc_02_Get_Orders_E2E"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
